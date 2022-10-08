@@ -9,99 +9,133 @@
         header{
             text-align: center;
         }
-        figure img{
-            height: 200px;
-            width: 200px;
-        }
-        .aside{
-            width: fit-content;
-            text-align: center;
-        }
-        #aside{
-            border-left: 1px solid black;
-        }
-        figure{
-            justify-self: left;
-        }
         table{
             width: 100%;
+            border-collapse: collapse;
+        }
+        tr{
+            border-left: 0px;
+            border-right: 0px;
+        }
+        #side{
+            font-size: medium;
+            display: flex;
+            align-items: flex-start;
+            
+        }
+        #main{
+            font-size: medium;
+            width: 80%;
+            border-left: 1px solid #969695;
+            text-align: center;
+        }
+        img{
+            height: 200px;
+            width: 200px;
         }
         a{
             text-decoration: none;
         }
-        #about, #note{
-            text-align: center;
+        tfoot{
+            background-color: #969695;
         }
     </style>
 </head>
 <body>
+
     <header>
         <h1>SAINT JOHN BERCHMANS</h1>
         <p>The Holy Youth, patron saint of altar servers, Jesuit scholastics, and students.</p>
     </header>
     <hr>
-    <div>
-    <main>
-        <table>
-            <tr>
-                <td class="aside">
-                    <h4><a href="#about">About St. John Berchmans</a></h4>
-                </td>
-                <td rowspan="2" id="aside">
-                    <div>
-                    <h2 id="about">About St. John Berchmans</h2>
-                    <p>
-                        John Berchmans (13 March 1599 – 13 August 1621) was a Jesuit scholastic and is a saint in the Catholic Church. In 1615, the Jesuits opened a college at Mechelen and Berchmans was one of the first to enroll. His spiritual model was his fellow Jesuit Aloysius Gonzaga, and he was influenced by the example of the English Jesuit martyrs. Berchmans is the patron saint of altar servers, Jesuit scholastics, and students.
-                    </p>
-                </div>
+
+    <table>
+        <tr>
+            <td id="side">
+                <table>
+                    <tr>
+                        <td>
+                            <h3>Contents:</h3>
+                            <h4><a href="#about">About John Berchmans</a></h4>
+                            <h4><a href="#note">Notable Timeline</a></h4>
+                            <h4><a href="#bio">Biography</a></h4>
+                            <br><br><br>
+                            <h3>Famous Quotes:</h3>
+                            <blockquote>
+                                &quot;If I do not become a saint when I am young, I shall never become one.&quot;
+                                <cite>  -St. John Berchmans</cite>
+                            </blockquote>
+                            <blockquote>
+                                &quot;Our true worth does not consist in what human beings think of us. What we really are consists in what God knows us to be.&quot;
+                                <cite>  -St. John Berchmans</cite>
+                            </blockquote>
+                            <br>
+                            <small><a href="https://bit.ly/3fFMbXZ">Click here to get more quotes</a></small>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td id="main">
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Giovanni_berchmans.jpg/220px-Giovanni_berchmans.jpg" alt="Saint John Berchmans">
+                    <figcaption>St. John Berchmans, Jesuit Scholastic and Saint</figcaption>
+                </figure>
+                <br>
+                <h2 id="about">ABOUT JOHN BERCHMANS, THE HOLY YOUTH</h2>
+                <p>The Catholic Church considers John Berchmans, a Jesuit scholar who lived from 13 March 1599 to 13 August 1621, to be a saint. Berchmans was one of the first students to enroll in the Jesuit college that was established in Mechelen in 1615. Aloysius Gonzaga, a fellow Jesuit, served as his spiritual role model, and the sacrifice of the English Jesuit martyrs had an impact on him.</p>
+                    <p>John Berchmans drew spiritual inspiration from his fellow Jesuit Aloysius Gonzaga, as well as the example of the English Jesuit martyrs. His holiness was defined by his genuine awareness for the value of ordinary things, a feature of the Flemish spiritual tradition. He had an unique devotion to Mary, Jesus' mother, and the Little Rosary of the Immaculate Conception is named after him.</p>
+                <p>Berchmans' heart was returned to his birthplace of Belgium after his death, where it is placed in a silver reliquary on a side altar in the church of Leuven (Louvain). Berchmans was blessed in 1865 and canonized in 1888. Statues show him with his hands joined, carrying his crucifix, book of rules, and rosary.</p>
+                    <p><strong>The patron saint of scholars, Jesuit scholastics, and altar servers is Berchmans.</strong></p>
+
                 <div>
-                    <h2 id="note">Notable Timeline</h2>
-                    <ol>
-                        <li>
-                            <h3 id="birth">His Birth</h3>
-
-                        </li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ol>
-
-                    </div>
-                </td>
-                <td>
-                    <figure>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Giovanni_berchmans.jpg/220px-Giovanni_berchmans.jpg" alt="Image of St. John Berchmans">
-                        <figcaption style="text-align: center;">Jesuit Scholar and Saint</figcaption>
-                    </figure>
-                </td>
-            </tr>
-            <tr>
-                <td class="aside">
-                    <h4><a href="#note">Notable Timeline</a></h4>
+                    <h3 id="note">NOTABLE TIMELINE</h3>
                     <ul>
-                        <li>Birth</li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>
+                            John Berchmans was born on March 13, 1599, in Diest, in what is now the Belgian province of Flemish Brabant.
+                        </li>
+                        <li>
+                            Berchmans was among the first students to enroll when the Jesuits established a college at Mechelen in 1615. He joined the Sodality of the Blessed Virgin very quickly upon enrolling.
+                        </li>
+                        <li>
+                            Berchmans entered the Jesuit novitiate on September 24, 1616. He was kind, courteous, and had an outgoing attitude that endeared him to others.
+                        </li>
+                        <li>
+                            On January 24, 1618, he took his first vows and traveled to Antwerp to begin his studies in philosophy. After only a few weeks, he was transferred to Rome to pursue his studies.
+                        </li>
+                        <li>
+                            He was infected with Roman fever. His lungs got irritated, and his strength gradually dwindled. On 13 August 1621, at the age of twenty-two years and five months, he died of dysentery and fever.
+                        </li>
+                        <li>
+                            Berchmans' heart was returned to his birthplace of Belgium after his death in the year 1621 where he was venerated
+                        </li>
+                        <li>
+                            The process for his beatification process began immediately  after he died and was finaly beatified in the year 1865 by Pope Gregory XV
+                        </li>
+                        <li>
+                            St. Berchmans appeared to and healed a woman named Mary Wilson in the year 1866, one year after the civil war.
+                        </li>
+                        <li>
+                            He was canonized in the year 1888
+                        </li>
+                        <li>
+                            The trustees called the Academy's boys school St. John Berchmans School when it opened in 2006. It is the only shrine in the United States that is located at the exact place of a confirmed miracle.
+                        </li>
                     </ul>
+                </div>
+                <br>
+                <p id="bio"><small>You can read more on the biography of St. John Berchmans by <a href="https://www.newadvent.org/cathen/08450a.htm">clicking here</a></small></p>
+            </td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <p>
+                        <small><em>&copy; ELOGOD, 2022</em></small>
+                    </p>
                 </td>
             </tr>
-        </table>
-    </main>
-        
-    </div>
-    <footer></footer>
+        </tfoot>
+    </table>
+
 </body>
 </html>
