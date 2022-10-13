@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+.b_img{
+
+    background: url(elogod.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+}
+
+
+.slform{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+
+.slform h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0px;
+}
+
+.slform label{
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+.slform input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0px;
+    outline: none;
+    border-radius: 5px;
+}
+.slform input[class="btn"]{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.slform .inp{
+    margin-bottom: 10px;
+}

@@ -14,7 +14,8 @@ html{
     justify-content: center;
     align-items: center;
     background-color: rgba(196, 194, 194, 0.5);
-    position: sticky;
+    position: fixed;
+    width: 100%;
 }
 
 .navigation h2{
@@ -58,7 +59,7 @@ html{
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 660px;
+    height: 720px;
     justify-content: center;
     align-items: center;
     color: white;
