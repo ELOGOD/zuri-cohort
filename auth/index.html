@@ -4,10 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>ELOGOD AUTH</title>
 </head>
 <body>
-    REGISTRATION
+    <div class="regform">
+        <h1>Registration Form</h1>
+    </div>
+    <div class="main">
+        <form action="login.html" method="get">
+            <div id="name">
+                <h2 class="name">Name</h2>
+                <input class="finput" type="text" name="fname"  pattern="[A-Za-z]{3,}" required><br>
+                <label class="flabel" for="fname">First Name</label>
+                <input class="sinput" type="text" name="lname"  pattern="[A-Za-z]{3,}" required>
+                <label class="slabel" for="lname">Last Name</label>
+            </div>
+            <div id="contact">
+                <h2 class="contact">Contact</h2>
+                <input class="finput" type="tel" name="pnum"  required><br>
+                <label class="flabel" for="pnum">Phone Number</label>
+                <input class="sinput" type="email" name="mail"  required>
+                <label class="slabel" for="mail">Email Address</label>
+            </div>
+            <div id="personal">
+                <h2 class="personal">Personal</h2>
+                <input id="pers" type="color" name="color" value="#1f8dd1"><br>
+                <label class="flabel" for="color">Select Favorite color</label>
+                <input id="pers1" type="date" name="dob" required>
+                <label class="slabel" for="dob">Date of birth</label>
+            </div>
+            <div id="gender">
+                <h2 class="gender">Gender</h2>
+                <select name="gender" id="gen">
+                    <option disabled="disabled" selected="selected">--Select Gender--</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                    <option value="none">Prefer not to say</option>
+                </select>
+            </div>
+            <div id="pass">
+                <h2 class="pass">Password</h2>
+                <input id="pass1" class="finput" type="password" name="pwd"  pattern="^([a-zA-Z0-9@*#]{8,15})$" minlength="8" maxlength="15" required><br>
+                <label class="flabel" for="pwd">Choose Password</label>
+                <input id="pass2" class="sinput" type="password" name="pwd1"  pattern="^([a-zA-Z0-9@*#]{8,15})$" minlength="8" maxlength="15" required>
+                <label class="slabel" for="pwd1">Confirm Password</label>
+            </div>
+
+            <input type="submit" class="btn" name="submit" value="Sign Up">
+        </form>
+    </div>
 </body>
 </html>

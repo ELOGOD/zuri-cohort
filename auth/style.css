@@ -5,44 +5,25 @@
     font-family: sans-serif;
 }
 
-.body{
+body{
+
+    background: url(clouds1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.main{
     background-color: rgba(0, 0, 0, 0.5);
-    background-size: cover;
-}
-.b_img{
-
-    background: url(elogod.png) no-repeat;
-    background-size: cover;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-    width: 100%;
-}
-
-
-.slform{
-    width: 350px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
+    width: 800px;
+    margin: auto;
     color: #fff;
 }
 
-.slform h1{
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 40px 0px;
-}
-
-.slform label{
+.main label{
     font-size: 20px;
     margin: 15px 0px;
 }
 
-.slform input{
+.main input{
     font-size: 16px;
     width: 100%;
     padding: 15px 10px;
@@ -50,7 +31,7 @@
     outline: none;
     border-radius: 5px;
 }
-.slform input[class="btn"]{
+.main input[class="btn"]{
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0;
@@ -61,6 +42,15 @@
     cursor: pointer;
 }
 
-.slform .inp{
+.main .inp{
     margin-bottom: 10px;
+}
+.regform{
+    width: 800px;
+    background-color: rgba(0, 0, 0, 6);
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
 }
